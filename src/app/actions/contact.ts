@@ -11,8 +11,8 @@ export const createAction = async (prevState:any ,formData:FormData) => {
   const newContact : ContactType = {
     name : formData.get('name') as string,
     email : formData.get('email') as string,
-    userId : Number(user?.id)
-  } 
+    userId : user?.id
+  }
   try {
     await createContact(newContact);
     revalidatePath('/contact');
@@ -28,8 +28,8 @@ export const updateAction = async (prevState:any ,formData:FormData) => {
   const updatedContact : ContactType = {
     name : formData.get('name') as string,
     email : formData.get('email') as string,
-    userId : Number(user?.id)
-  } 
+    userId : user?.id
+  }
   try {
     await updateContact(id,updatedContact);
     revalidatePath('/contact');

@@ -1,4 +1,4 @@
-import ContactForm from "@/src/app/_components/ComponentForm"
+import ContactForm from "@/src/app/_components/ContactForm"
 import { updateAction } from "@/src/app/actions/contact"
 import { getContactsById } from "@/src/app/api/contact";
 

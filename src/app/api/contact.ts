@@ -4,8 +4,10 @@ import { ContactType } from "../_types/contact";
 
 const API_URL = "http://localhost:3000";
 export const getContacts = async (userId:string) => {
-  const response = await axios.get(`${API_URL}/contacts?userId=${userId}`);
-  return response.data
+  const response = await axios.get(`${API_URL}/contacts`);
+  const allContacts = response.data;
+  // Filter by userId on the server side
+  return allContacts.filter((contact: ContactType) => contact.userId === userId);
 }
 
 export const getContactsById = async (id:string) => {

@@ -3,20 +3,32 @@
     {
       "name": "sai ram",
       "email": "sai@gmail.com",
-      "userId": 2,
+      "userId": "2",
       "id": "5z3BNtsl5_M"
     },
     {
-      "name": "ramesh sharma",
+      "name": "rohit sharma",
       "email": "sharma@gmail.com",
-      "userId": 1,
+      "userId": "1",
       "id": "HraS6wM7I7U"
     },
     {
       "name": "Rambabu",
       "email": "babu@gmail.com",
-      "userId": 1,
+      "userId": "1",
       "id": "v75E73IrzGk"
+    },
+    {
+      "name": "Tekesj",
+      "email": "tejesh@123.com",
+      "userId": null,
+      "id": "kH1247t1Gug"
+    },
+    {
+      "name": "test user",
+      "email": "test@gmail.com",
+      "userId": "s35PEDdmcTg",
+      "id": "14BfN0bZ4OI"
     }
   ],
   "users": [
@@ -31,6 +43,30 @@
       "name": "user2",
       "email": "user2@test.com",
       "password": "123456"
+    },
+    {
+      "name": "sai ram",
+      "email": "sairam@gmail.com",
+      "password": "1234",
+      "id": "B8Bkiqfcpoo"
+    },
+    {
+      "name": "teja",
+      "email": "vgoud55@gmail.com",
+      "password": "123456",
+      "id": "v3NjjFa0sfs"
+    },
+    {
+      "name": "teja",
+      "email": "vgoud55@gmail.com",
+      "password": "4523",
+      "id": "Uc1sdh-k158"
+    },
+    {
+      "name": "Vamshi Goud",
+      "email": "vgoud55@gmail.com",
+      "password": "qdwefwef",
+      "id": "s35PEDdmcTg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

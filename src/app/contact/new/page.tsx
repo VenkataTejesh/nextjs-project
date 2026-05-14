@@ -1,4 +1,4 @@
-import ContactForm from "../../_components/ComponentForm";
+import ContactForm from "../../_components/ContactForm";
 import { createAction } from "../../actions/contact";
 
 const addNewContact = () => {
