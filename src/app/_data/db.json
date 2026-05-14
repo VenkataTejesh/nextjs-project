@@ -1,0 +1,37 @@
+{
+  "contacts": [
+    {
+      "name": "sai ram",
+      "email": "sai@gmail.com",
+      "userId": 2,
+      "id": "5z3BNtsl5_M"
+    },
+    {
+      "name": "ramesh sharma",
+      "email": "sharma@gmail.com",
+      "userId": 1,
+      "id": "HraS6wM7I7U"
+    },
+    {
+      "name": "Rambabu",
+      "email": "babu@gmail.com",
+      "userId": 1,
+      "id": "v75E73IrzGk"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "user1",
+      "email": "user1@test.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "name": "user2",
+      "email": "user2@test.com",
+      "password": "123456"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
